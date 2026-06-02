@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Daily Grind | Premium Roasters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Playfair+Display:ital,wght@0,600;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Global Navigation (Stays on every page) -->
+    <header>
+        <div class="logo">THE DAILY GRIND</div>
+        <nav>
+            <a href="#" class="nav-link active" data-page="home">Home</a>
+            <a href="#" class="nav-link" data-page="menu">Our Menu</a>
+            <a href="#" class="nav-link" data-page="story">Our Story</a>
+        </nav>
+    </header>
+
+    <!-- ================= PAGE 1: HOME ================= -->
+    <main id="page-home" class="page-content active-page">
+        <section class="hero">
+            <div class="hero-text">
+                <span>CRAFTED WITH PASSION</span>
+                <h1>Life Begins After <br><span class="italic-text">Coffee.</span></h1>
+                <p>We source single-origin, ethically grown coffee beans and roast them locally in small batches for the ultimate flavor profile.</p>
+                <button class="btn" onclick="navigateTo('menu')">View Today's Brews</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= PAGE 2: MENU & SHOP (DEEPER CONTENT) ================= -->
+    <main id="page-menu" class="page-content">
+        <section class="menu-section">
+            <h2>The Espresso Bar</h2>
+            <p class="section-subtitle">Freshly ground, precisely extracted.</p>
+            
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Vanilla Bourbon Latte</h3>
+                        <p>House espresso, Madagascar vanilla syrup, bourbon reduction, steamed oat milk.</p>
+                    </div>
+                    <span class="price">$5.50</span>
+                </div>
+                <!-- Item 2 -->
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Cortado</h3>
+                        <p>Equal parts espresso and warm, velvety milk. Bold and smooth.</p>
+                    </div>
+                    <span class="price">$4.25</span>
+                </div>
+                <!-- Item 3 -->
+                <div class="menu-item">
+                    <div class="item-info">
+                        <h3>Cold Brew Nitro</h3>
+                        <p>Steeped for 20 hours, infused with nitrogen for a rich, creamy head.</p>
+                    </div>
+                    <span class="price">$5.00</span>
+                </div>
+            </div>
+
+            <h2 class="section-divider">Take the Beans Home</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="prod-badge">Best Seller</div>
+                    <h3>Ethiopian Yirgacheffe</h3>
+                    <p>Light roast with notes of blueberry, jasmine, and bright citrus.</p>
+                    <span class="prod-price">$18.00 / bag</span>
+                </div>
+                <div class="product-card">
+                    <div class="prod-badge">Dark</div>
+                    <h3>Sumatra Mandheling</h3>
+                    <p>Deep, heavy body with earthy notes, complex cedar, and sweet tobacco.</p>
+                    <span class="prod-price">$19.50 / bag</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= PAGE 3: OUR STORY ================= -->
+    <main id="page-story" class="page-content">
+        <section class="story-section">
+            <div class="story-layout">
+                <div class="story-text">
+                    <h2>Our Journey</h2>
+                    <h3>From Bean to Cup since 2018</h3>
+                    <p>What started as a tiny garage operation with a modified popcorn popper has grown into a community staple. We believe that coffee is more than just caffeine—it's a ritual, a science, and a conversation starter.</p>
+                    <p>We travel to origin countries annually, working directly with independent farmers to ensure fair wages and sustainable harvesting practices.</p>
+                </div>
+                <div class="story-stats">
+                    <div class="stat-box">
+                        <h4>14+</h4>
+                        <p>Direct Farm Partnerships</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>100%</h4>
+                        <p>Organic Arabica Beans</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer>
+        <p>&copy; 2026 The Daily Grind Coffee Co. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
